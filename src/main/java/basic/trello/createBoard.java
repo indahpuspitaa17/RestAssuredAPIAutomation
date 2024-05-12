@@ -24,8 +24,6 @@ public class createBoard {
                 headers("content-type", "application/json").
                 headers("User-Agent", "PostmanRuntime/7.37.3").
                 param("name", randomBoardName).
-                param("key", "2885e7b1066d1a30689167c2d8603644").
-                param("token", "ATTAff7b3913467deacd5726302672d8ea4dbb247a34a8934d77242a7c727277e75241725DF4").
         when().
                 post("/1/boards").
                 // Verify response and body
