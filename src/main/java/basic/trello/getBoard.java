@@ -19,12 +19,12 @@ public class getBoard {
 
         given().
         when().
-                get("/1/boards/daGPAl4P").
+                get("/1/boards/io").
         // Verify response and body
         then().
                 assertThat().statusCode(200).and().
                 contentType(ContentType.JSON).and().
-                body("id", equalTo("66409f6da0eedc2e6becfaa4")).and().
+                body("id", equalTo("ii")).and().
                 body("name", equalTo("Rest Assured"));
     }
 }
