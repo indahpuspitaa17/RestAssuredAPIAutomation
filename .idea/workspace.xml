@@ -5,123 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="869f9cd0-900c-46a5-b300-e2280de9ca14" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/basic/trello/getBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic/trello/getBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2gMYidOLFCURphARLg59cBYRiSk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "v1"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.createBoard.createNewBoard">
-    <configuration name="getBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.trello.getBoard" />
-      <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic.trello.createBoard" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="createBoard.createNewBoard" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic.trello.createBoard" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="basic.trello" />
-      <option name="MAIN_CLASS_NAME" value="basic.trello.createBoard" />
-      <option name="METHOD_NAME" value="createNewBoard" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="getBoard.getBoard" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic.trello.createBoard" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="basic.restAssured" />
-      <option name="MAIN_CLASS_NAME" value="basic.trello.getBoard" />
-      <option name="METHOD_NAME" value="getBoard" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="getBoard.getCreatedBoard" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic.trello.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="basic.trello" />
-      <option name="MAIN_CLASS_NAME" value="basic.trello.getBoard" />
-      <option name="METHOD_NAME" value="getCreatedBoard" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.createBoard.createNewBoard" />
-        <item itemvalue="TestNG.getBoard.getCreatedBoard" />
-        <item itemvalue="TestNG.getBoard.getBoard" />
-        <item itemvalue="Application.getBoard" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="869f9cd0-900c-46a5-b300-e2280de9ca14" name="Changes" comment="" />
-      <created>1715509044783</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1715509044783</updated>
-    </task>
     <servers />
   </component>
 </project>
