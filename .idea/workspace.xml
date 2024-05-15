@@ -4,11 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="869f9cd0-900c-46a5-b300-e2280de9ca14" name="Changes" comment="" />
+    <list default="true" id="869f9cd0-900c-46a5-b300-e2280de9ca14" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resource/createRepo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restapibase/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testcase/github/GithubRepoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testcase/github/GithubRepoTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testcase/trello/getBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utility/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utility/CreateUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utility/PayloadGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utility/RestLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/trello/createBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testcase/trello/createBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/trello/getBoard.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,13 +42,132 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectId" id="2gOkZ1evTy0Gil3QCQcokkmZJ44" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;git-widget-placeholder&quot;: &quot;v1&quot;
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="TestNG.GithubRepoTestSuite.createRepositoryTest">
+    <configuration name="GithubRepoTestSuite.createRepositoryTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcase.github.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcase.github" />
+      <option name="MAIN_CLASS_NAME" value="testcase.github.GithubRepoTestSuite" />
+      <option name="METHOD_NAME" value="createRepositoryTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GithubRepoTest.createNewRepository" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcase.github.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basic.github" />
+      <option name="MAIN_CLASS_NAME" value="testcase.github.GithubRepoTest" />
+      <option name="METHOD_NAME" value="createNewRepository" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GithubRepoTest.deleteRepository" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcase.github.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basic.github" />
+      <option name="MAIN_CLASS_NAME" value="testcase.github.GithubRepoTest" />
+      <option name="METHOD_NAME" value="deleteRepository" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GithubRepoTest.listOfRepository" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcase.github.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basic.github" />
+      <option name="MAIN_CLASS_NAME" value="testcase.github.GithubRepoTest" />
+      <option name="METHOD_NAME" value="listOfRepository" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="getBoard.getCreatedBoard" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcase.trello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basic.trello" />
+      <option name="MAIN_CLASS_NAME" value="testcase.trello.getBoard" />
+      <option name="METHOD_NAME" value="getCreatedBoard" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GithubRepoTestSuite.createRepositoryTest" />
+        <item itemvalue="TestNG.GithubRepoTest.listOfRepository" />
+        <item itemvalue="TestNG.getBoard.getCreatedBoard" />
+        <item itemvalue="TestNG.GithubRepoTest.createNewRepository" />
+        <item itemvalue="TestNG.GithubRepoTest.deleteRepository" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="869f9cd0-900c-46a5-b300-e2280de9ca14" name="Changes" comment="" />
+      <created>1715576062908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715576062908</updated>
+    </task>
     <servers />
   </component>
 </project>

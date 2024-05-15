@@ -1,14 +1,9 @@
-package basic.trello;
+package testcase.trello;
 
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.when;
-import static org.hamcrest.CoreMatchers.equalTo;
 
 public class createBoard {
     public createBoard() {
