@@ -1,7 +1,7 @@
 package utility;
 
 public class Auth {
-    private final static String bearerToken = "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";
+    private final static String bearerToken = "";
 
     public static String bearerToken() {
         return bearerToken;
